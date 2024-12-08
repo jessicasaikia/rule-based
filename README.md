@@ -4,6 +4,8 @@ This repository contains a simple Rule-Based Model for Parts-of-Speech tagging i
 ## Introduction to Parts-of-Speech Tagging (PoS Tagging)
 PoS tagging is the process that identifies and labels grammatical roles of words in texts, supporting applications like machine translation and sentiment analysis. While different languages may have their own PoS tags, I have used my own custom PoS tags for this model. The Table below defines the custom PoS tags used in this model- 
 
+![Table](https://github.com/jessicasaikia/rule-based/blob/main/Custom%20PoS%20tags%20Table.png)
+
 ## How does this work?
 1. The code starts by importing all the necessary libraries.
 2. Following that I added the "dictionaries" which are CSV files containing words and their respective Parts of Speech tags. I made two dictionaries - one for the English language (containing English words and their parts of speech tags) and the other for the Assamese language.
